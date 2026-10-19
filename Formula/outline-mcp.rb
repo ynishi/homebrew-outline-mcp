@@ -1,25 +1,25 @@
 class OutlineMcp < Formula
   desc "Tree-structured session guide & checklist as an MCP server"
   homepage "https://github.com/ynishi/outline-mcp"
-  version "0.15.1"
+  version "0.15.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ynishi/outline-mcp/releases/download/v0.15.1/outline-mcp-aarch64-apple-darwin.tar.xz"
-      sha256 "614f8ac88c56c53139a65ad658ab32ae3a5b48c988ce73f22b0a31494b4e12c9"
+      url "https://github.com/ynishi/outline-mcp/releases/download/v0.15.2/outline-mcp-aarch64-apple-darwin.tar.xz"
+      sha256 "1c5191765ae27b8b1ee5dc0774c46de6468be9653d91a96eb19892a09f2051a8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ynishi/outline-mcp/releases/download/v0.15.1/outline-mcp-x86_64-apple-darwin.tar.xz"
-      sha256 "8b3b478ac61980a082fea57bae11ba9906e2a1fc8fd80a008305915dfb10a1b5"
+      url "https://github.com/ynishi/outline-mcp/releases/download/v0.15.2/outline-mcp-x86_64-apple-darwin.tar.xz"
+      sha256 "f94d4f11b03567bc0fd097ec9e1f24cc23e0b734aba8797b6e27110e63fab73b"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ynishi/outline-mcp/releases/download/v0.15.1/outline-mcp-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "62943d59d33f9a10f6e9b1f8d2506f0b2b39d96c75a32839b8f14c939cf1bda4"
+      url "https://github.com/ynishi/outline-mcp/releases/download/v0.15.2/outline-mcp-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "e9ee8d4b9c2ed6c45520bf2ffe32e01f8365d24c68b4008fd8c029efae76315c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ynishi/outline-mcp/releases/download/v0.15.1/outline-mcp-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "02fc8e8aa90fb4a8e26490c0accd73fb5fd6f847c54469924937504a290a2f06"
+      url "https://github.com/ynishi/outline-mcp/releases/download/v0.15.2/outline-mcp-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "6c41ece342880aa821b3a47e764e01a8ee333248fd641c21b1db84a8ac74585e"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
